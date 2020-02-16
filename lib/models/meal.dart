@@ -1,12 +1,8 @@
 import 'package:flutter/foundation.dart';
 
-enum Complexity {
-  Simple, Challenging, Hard
-}
+enum Complexity { Simple, Challenging, Hard }
 
-enum  Affordability{
-  Affordable, Pricey, Luxurious
-}
+enum Affordability { Affordable, Pricey, Luxurious }
 
 class Meal {
   final String id;
@@ -15,7 +11,7 @@ class Meal {
   final Affordability affordability;
   final Complexity complexity;
   final String imageUrl;
-  final double duration;
+  final int duration;
   final List<String> ingredients;
   final List<String> steps;
   final bool isGlutenFree;
